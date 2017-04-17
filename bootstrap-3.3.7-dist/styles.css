@@ -80,6 +80,11 @@ h1#title-name {
 h3#title-subtext {
     font-size: 3.1vw;
     text-shadow: 2px 2px 2px #aaa;
+    margin-bottom: 0;
+}
+
+#logo {
+    max-width: 11vw;
 }
 
 @media screen and (min-width: 768px) {
@@ -87,8 +92,13 @@ h3#title-subtext {
         font-size: 4em;
         margin-bottom: 23px;
     }
+
     h3#title-subtext {
         font-size: 24px;
+    }
+
+    #logo {
+        max-width: 84px;
     }
 }
 
