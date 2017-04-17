@@ -1,0 +1,98 @@
+/* My CSS! (and stuff I borrowed from bootstrap 4.0.0-alpha.6) */
+
+*, body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color: #2d3c49;
+}
+
+.d-flex {
+  display: -webkit-box !important;
+  display: -webkit-flex !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+
+.flex-wrap {
+  -webkit-flex-wrap: wrap !important;
+      -ms-flex-wrap: wrap !important;
+          flex-wrap: wrap !important;
+}
+
+.flex-nowrap {
+  -webkit-flex-wrap: nowrap !important;
+      -ms-flex-wrap: nowrap !important;
+          flex-wrap: nowrap !important;
+}
+
+.align-self-auto {
+  -webkit-align-self: auto !important;
+      -ms-flex-item-align: auto !important;
+              -ms-grid-row-align: auto !important;
+          align-self: auto !important;
+}
+
+.align-self-start {
+  -webkit-align-self: flex-start !important;
+      -ms-flex-item-align: start !important;
+          align-self: flex-start !important;
+}
+
+.align-self-end {
+  -webkit-align-self: flex-end !important;
+      -ms-flex-item-align: end !important;
+          align-self: flex-end !important;
+}
+
+.align-self-center {
+  -webkit-align-self: center !important;
+      -ms-flex-item-align: center !important;
+              -ms-grid-row-align: center !important;
+          align-self: center !important;
+}
+
+.align-self-baseline {
+  -webkit-align-self: baseline !important;
+      -ms-flex-item-align: baseline !important;
+          align-self: baseline !important;
+}
+
+.align-self-stretch {
+  -webkit-align-self: stretch !important;
+      -ms-flex-item-align: stretch !important;
+              -ms-grid-row-align: stretch !important;
+          align-self: stretch !important;
+}
+
+.container {
+    max-width: 900px;
+    margin-top: 20px;
+}
+
+h1#title-name {
+    margin-top: 0;
+    margin-bottom: 2.7vw;
+    font-size: 7.5vw;
+    font-weight: 100;
+    line-height: 0.67;
+}
+
+h3#title-subtext {
+    font-size: 3.1vw;
+    text-shadow: 2px 2px 2px #aaa;
+}
+
+@media screen and (min-width: 768px) {
+    h1#title-name {
+        font-size: 4em;
+        margin-bottom: 23px;
+    }
+    h3#title-subtext {
+        font-size: 24px;
+    }
+}
+
+hr {
+    border-width: 5px;
+    border-color: #7d97ad;
+}
