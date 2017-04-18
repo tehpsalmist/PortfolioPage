@@ -69,6 +69,10 @@
     margin-top: 20px;
 }
 
+h2, h3, h4 {
+  font-weight: 300;
+}
+
 h1#title-name {
     margin-top: 0;
     margin-bottom: 2.7vw;
