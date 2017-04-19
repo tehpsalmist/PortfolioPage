@@ -73,7 +73,7 @@ h2, h3, h4 {
   font-weight: 300;
 }
 
-h1#title-name {
+#title-name {
     margin-top: 0;
     margin-bottom: 2.7vw;
     font-size: 7.5vw;
@@ -81,7 +81,7 @@ h1#title-name {
     line-height: 0.67;
 }
 
-h3#title-subtext {
+#title-subtext {
     font-size: 3.1vw;
     text-shadow: 2px 2px 2px #aaa;
     margin-bottom: 0;
@@ -92,12 +92,12 @@ h3#title-subtext {
 }
 
 @media screen and (min-width: 768px) {
-    h1#title-name {
+    #title-name {
         font-size: 4em;
         margin-bottom: 23px;
     }
 
-    h3#title-subtext {
+    #title-subtext {
         font-size: 24px;
     }
 
